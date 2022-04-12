@@ -26,5 +26,6 @@ What was the best moment to buy and sell gold to get the highest profit?
 
 
 
-## recommendations 
- - organize the code better in modules structure 
+## test 
+
+ `npm run test` 
