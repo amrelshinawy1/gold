@@ -8,11 +8,11 @@ describe('test gold', () => {
   it('should get the best moment', async () => {
     const {amountAfterSell,amountToInvist,max,min} = await calculateProfit();
 
-    expect(min).toStrictEqual({data: '2018-09-28', cena: 139.32});
+    expect(min).toStrictEqual({date: '2018-01-02', amount: 145.1});
     
-    expect(max).toStrictEqual({data: '2021-11-22', cena: 248.08});
+    expect(max).toStrictEqual({date: '2021-01-04', amount: 228.1});
 
-    expect(amountAfterSell).toStrictEqual("1068389.32");
+    expect(amountAfterSell).toStrictEqual("943211.58");
 
     expect(amountToInvist).toStrictEqual(600000);
   });
